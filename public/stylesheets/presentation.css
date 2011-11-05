@@ -58,17 +58,29 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../images/speakers.gif);
   background-repeat:no-repeat;
   padding-left:40px;
+  color: #80C400;
 }
 
 .event {
   background-image: url(../images/event.gif);
   background-repeat:no-repeat;
   padding-left:40px;
+  color: #80C400;
 }
 .program {
   background-image: url(../images/program.gif);
   background-repeat:no-repeat;
   padding-left:40px;
+  color: #80C400;
+}
+
+.location {
+  background-image: url(../images/location.gif);
+  background-repeat:no-repeat;
+  padding-left:40px;
+  color: #80C400;
+  color: #80C400;
+	
 }
 
 .basics {
@@ -79,4 +91,22 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../images/logo-white.gif);
   background-repeat:no-repeat;
   padding-left:20px;
+}
+
+
+
+.skip{
+display: none;
+}
+
+.skip a{position: absolute;
+left: 0;
+top: -500px;
+width: 1px;
+height: 1px;
+overflow: hidden;
+}
+
+.box {
+	border: 1px solid #ccc;
 }
