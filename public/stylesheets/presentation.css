@@ -3,19 +3,20 @@ div.usability-header { margin: 0 0 10px 0; padding: 20px 0 0 0; }
 div.usability-header h1 { margin-bottom: 0; padding: 0; }
 div.usability-header h1 a { color: #181818; }
 div.usability-header h1 a:hover { color: #181818; }
+div.usability-header h2{color: #80C400}
 div.usability-header .subheader { margin-bottom: 9px; }
-
+div.top-content {background: url('../images/kids_olpc.jpg') no-repeat bottom right; height: 500px; border:1px solid #ccc; padding: 5px  }
 
 
 .row.display { background: #f4f4f4; margin-bottom: 10px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
-.row.display .column, .row.display .columns { background: #e7e7e7; font-size: 11px; text-indent: 3px; padding-top: 6px; padding-bottom: 6px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+.row.display .column, .row.display .columns { background: #e7e7e7; font-size: 11px; text-indent: 3px; padding-top: 6px; padding-bottom: 6px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-rs  	adius: 3px; }
 
 
 #topBar {
 background: #222;
 border-bottom: solid 4px #00A5FF;
 padding: 15px 20px 13px 20px;
-}
+}:
 
 @media handheld, only screen and (max-width: 767px) {
 	#topBar { padding: 15px 0px 13px 0px; }
@@ -52,8 +53,9 @@ padding: 15px 20px 13px 20px;
 #topBar strong a.button { padding: 4px 10px; font-weight: bold; }
 
 h1, h2, h3, h4, h5, h6 { 	
-  font-family: "droid sans", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
-  
+  font-family: "droid sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;}
+
+
 .speakers {
   background-image: url(../images/speakers.gif);
   background-repeat:no-repeat;
@@ -78,8 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../images/location.gif);
   background-repeat:no-repeat;
   padding-left:40px;
-  color: #80C400;
-  color: #80C400;
+  color: #ccc;
 	
 }
 
