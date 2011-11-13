@@ -1,0 +1,16 @@
+%meta{:charset => "utf-8"}/
+/ Set the viewport width to device width for mobile
+%meta{:content => "width=device-width", :name => "viewport"}/
+%title Usability Philippines
+/ Custom Stylesheets
+%link{:href => "http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold", :rel => "stylesheet", :type => "text/css"}
+%link{:href => "stylesheets/presentation.css", :rel => "stylesheet"}
+/ Included CSS Files
+%link{:href => "stylesheets/foundation.css", :rel => "stylesheet"}
+%link{:href => "stylesheets/app.css", :rel => "stylesheet"}
+/[if lt IE 9]
+<link rel="stylesheet" href="stylesheets/ie.css">
+/ IE Fix for HTML5 Tags
+/[if lt IE 9]
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+%link{:href => "http://usabilityphilippines.com/images/favicon.ico", :rel => "icon", :type => "image/png"}

@@ -1,0 +1,183 @@
+%body
+/ topbar container
+#topBar.container
+    .row
+    .four.columns
+        %a.skip{:href => "#event"} Skip to Content
+        %h1.logo
+        %a{:href => "/"} UsabilityPhilippines.com
+    .eight.columns.hide-on-phones
+        %strong.right
+        %a{:href => "#event"} Event
+        %a{:href => "#speakers"} Speakers
+        %a{:href => "#program"} Program
+        %a.small.round.blue.nice.button.src-download{"data-reveal-id" => "myInvite", :href => "#register"} Register
+/ end of topbar container
+/ main title
+.container
+    .row
+    .twelve.columns
+        .usability-header
+        %h2 Come Celebrate World Usability With Us!
+        %h4.subheader Theme: Designing for Social Change
+        %p
+            December 2, 2011, Waldo Perfecto Seminar Room
+            SPS Building, De La Salle University - Manila
+/ end of main title
+/ -speakers
+#speakers.container
+    .row
+    .twelve.columns
+        %a{:href => "#speakers"}
+        %h3.speakers Speakers
+        .row
+        .four.columns
+            %h4 Andrei Gonzales
+            %p
+            %img.box{:src => "../images/andrei.jpg"}
+                Communication Designer and Co-founder of Hugo MNL where he practices Identity, Information, and Interactive design.
+        .four.columns
+            %h4 Julius Charles Serrano
+            %p
+            %img.box{:src => "../images/julius.jpg"}
+                Research Director at Even Grounds Accessibility Consulting
+        .four.columns
+            %h4 Melissa Limcaoco
+            %p
+            %img.box{:src => "../images/melissa.jpg"}
+                Head, Digital Media, Smart Communications.
+                Head of Operations of the New Media Campaign of President Noynoy Aquino.
+/ event
+#event.container
+    .row
+    .twelve.columns.hide-on-phones
+        %a{:href => "#event"}
+        %h3.event Event
+        %h4
+        %span.basics What:
+        World Usability Day Celebration
+        %h4
+        %span.basics When:
+        December 2, 2011
+        %h4
+        %span.basics> Where:
+        Waldo Perfecto Seminar Room
+        SPS Building, DLSU Manila
+        %br
+        %p
+            UsabilityPhilippines.com, with  the Philippine Ergonomics Society,  is pleased to invite you to a symposium on World Usability with the theme - EDUCATION: Designing for Social Change.
+            We will focus outwardly on how our organizations, our cultures, and our world impact usability.
+        %p We will explore and celebrate:
+        %li Designing with an intentional outcome of sparking change in how people behave, communicate, and do things in the world; and
+        %li Examining the concept of cultures and how culture impacts usability.
+        %h5 Ticket Prices:
+        %p
+        %ul
+            %li Professionals: P500
+            %li Students: P250
+        %p
+    .row
+    .twelve.columns
+        %iframe{:frameborder => "22", :height => "600px", :marginheight => "0", :marginwidth => "0", :src => "https://docs.google.com/spreadsheet/embeddedform?formkey=dFJTVUM2WDZ6bWFIeU1lSGhYQUxBc1E6MQ", :style => "overflow:hidden;background: #ccc;", :width => "100%"} Loading...
+/ -program
+#program.container
+    .row
+    .twelve.columns
+        %a{:href => "#program"}
+        %h3.program Program
+        %table
+        %thead
+            %tr
+            %th Time
+            %th Activity
+        %tbody
+            %tr
+            %td 1:30-2:00PM
+            %td Registration
+            %tr
+            %td 2:00-2:15PM
+            %td Invocation/ National Anthem
+            %tr
+            %td 2:15-2:30PM
+            %td Opening Remarks: By Bhrein Salazar , President,  UsabilityPhilippines.com
+            %tr
+            %td 3:15-4:00PM
+            %td Melissa Limcaoco
+            %tr
+            %td 4:00-4:45PM
+            %td Julius Charles Serrano
+            %tr
+            %td 2:30-3:15PM
+            %td Andrei Gonzales
+            %tr
+            %td 4:45-5:00PM
+            %td UPA Membership Invite
+            %tr
+            %td 5:00-5:30PM
+            %td Snacks/Open Forum
+        %hr
+/ -map
+.container
+    .row
+    .six.columns
+        %a{:href => "#location"}
+        %h3.location Location
+        %iframe{:frameborder => "0", :height => "500", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=De+La+Salle+University,+2401,+Manila,+Philippines&aq=0&sll=14.566222,120.99299&sspn=0.023426,0.036092&vpsrc=6&ie=UTF8&hq=De+La+Salle+University,+2401,+Manila,+Philippines&t=m&cid=10272339155229965368&hnear=&ll=14.566222,120.99299&spn=0.023426,0.036092&output=embed", :width => "100%"}
+        %br
+        %small
+            %a{:href => "http://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=De+La+Salle+University,+2401,+Manila,+Philippines&aq=0&sll=14.566222,120.99299&sspn=0.023426,0.036092&vpsrc=6&ie=UTF8&hq=De+La+Salle+University,+2401,+Manila,+Philippines&t=m&cid=10272339155229965368&hnear=&ll=14.566222,120.99299&spn=0.023426,0.036092", :style => "color:#0000FF;text-align:left"} View Larger Map
+    .six.columns
+        %h5 Waldo Perfecto Seminar Room
+        %br
+        %p SPS Building
+        %p De La Salle University - Manila
+        %p 2401 Taft Avenue, Malate, Manila
+        %img.box{:src => "../images/sps-bldg.jpg"}
+    %hr
+/ footer
+.container
+    %footer.row
+    %section.five.columns
+        %h6.logo-footer
+        %strong About Usability Philippines
+        %p
+        Usability Philippines is an organization of usability professionals that seeks to advocate the adoption of
+        usability standards in the design of products, systems and interfaces in the Philippines. The organization
+        aims to provide resources for enhancing user experience across platforms as well as collect and
+        disseminate knowledge on usability.
+    %section.three.columns
+        %h6
+        %strong Our Vision
+        %p We envision Usability Philippines to be recognized by the government and industry as the primary resource for usability knowledge and practice.
+    %section.four.columns
+        %h6
+        %strong Need some help?
+        %p
+        For quick answers or help
+        %a{:href => "mailto:inquiry@usabilityphilippines.com"} email us!
+        %ul.block-grid.three-up
+        %li
+            / Place this tag where you want the +1 button to render
+            #___plusone_0{:style => "height: 15px; width: 70px; display: inline-block; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; "}
+            %iframe#I1_1321169669450{:allowtransparency => "true", :frameborder => "0", :hspace => "0", :marginheight => "0", :marginwidth => "0", :name => "I1_1321169669450", :scrolling => "no", :src => "https://plusone.google.com/u/0/_/+1/fastbutton?url=http%3A%2F%2Flocalhost%3A3000%2F&size=small&count=true&annotation=&hl=en-US&jsh=r%3Bgc%2F25095437-ce843676#id=I1_1321169669450&parent=http%3A%2F%2Flocalhost%3A3000&rpctoken=330936164&_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe", :style => "width: 70px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; height: 15px; position: static; left: 0px; top: 0px; visibility: visible; ", :tabindex => "-1", :title => "+1", :vspace => "0", :width => "100%"}
+            / Place this render call where appropriate
+            :javascript
+                (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                })();
+                        %li
+            %iframe{:allowtransparency => "true", :frameborder => "0", :scrolling => "no", :src => "http://platform.twitter.com/widgets/follow_button.html?screen_name=usabilityphil", :style => "width:80px; height:20px;"}
+        %li
+            %iframe{:allowtransparency => "true", :frameborder => "0", :scrolling => "no", :src => "//www.facebook.com/plugins/like.php?href&send=false&layout=button_count&width=200&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=218079081586757", :style => "border:none; overflow:hidden; width:200px; height:21px;"}
+/ end of footer container
+#myInvite.reveal-modal
+    %iframe{:frameborder => "0", :height => "470px", :marginheight => "0", :marginwidth => "0", :src => "https://docs.google.com/spreadsheet/embeddedform?formkey=dFJTVUM2WDZ6bWFIeU1lSGhYQUxBc1E6MQ", :style => "overflow:hidden; padding:10px;", :width => "98%"} Loading...
+/ Included JS Files
+%script{:src => "javascripts/foundation.js"}
+%script{:src => "javascripts/app.js"}
+:javascript
+    $(window).load(function() {
+        $('#featured').orbit();
+    });
