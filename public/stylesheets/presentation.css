@@ -1,5 +1,5 @@
 
-div.usability-header { margin: 0 0 10px 0; padding: 20px 0 0 0; }
+div.usability-header { margin: 0 0 10px 0; padding: 20px 0 0 0; background: url('../images/dlsu-logo.jpg') no-repeat right;}
 div.usability-header h1 { margin-bottom: 0; padding: 0; }
 div.usability-header h1 a { color: #181818; }
 div.usability-header h1 a:hover { color: #181818; }
