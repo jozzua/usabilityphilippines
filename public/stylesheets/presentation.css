@@ -136,3 +136,5 @@ overflow: hidden;
 	margin: 10px;
 
 }
+
+.struck {text-decoration: line-through; color: #777; padding-right: 5px;}
