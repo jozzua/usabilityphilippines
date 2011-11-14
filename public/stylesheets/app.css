@@ -8,6 +8,10 @@ h3 {
 list-style: none outside;
 margin-bottom: 0;
 }
+.block-grid.three-up > li {
+margin-left: 2%;
+width: 21.3%;
+}
 /* -------------------------------------------------- 
    Table of Contents
 -----------------------------------------------------
