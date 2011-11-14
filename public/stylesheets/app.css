@@ -4,6 +4,10 @@ h3 {
 	margin-top: 20px;
  		
 }
+#topBar ul, ol  li{
+list-style: none outside;
+margin-bottom: 0;
+}
 /* -------------------------------------------------- 
    Table of Contents
 -----------------------------------------------------

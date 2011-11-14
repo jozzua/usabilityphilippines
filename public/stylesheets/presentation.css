@@ -31,6 +31,7 @@ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,black)
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#717171',GradientType=0 );
 }:
 
+
 @media handheld, only screen and (max-width: 767px) {
 	#topBar { padding: 15px 0px 13px 0px; }
 }
