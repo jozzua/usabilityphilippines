@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9' 
-gem 'sqlite3-ruby','1.2.5', :require => 'sqlite3'
+gem 'rails', '3.2.11' 
 gem 'haml'
 gem 'compass'
 gem 'jquery-rails', '>= 1.0.12'
@@ -9,6 +8,7 @@ gem 'jquery-rails', '>= 1.0.12'
 group :development do
   gem 'rspec-rails', '2.6.1'
   gem 'sass'
+  gem 'sqlite3', '1.3.5'
 end
 
 group :test do
