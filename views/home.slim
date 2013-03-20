@@ -1,7 +1,99 @@
-.hero-unit.hidden-phone
-  .gphone
-    .inside-gphone
-      == erb(:twitter, :layout => false)
+== erb(:nav, :layout => false)
+
+#masthead
+  p.popquiz  Somewhere in the Usability Lab...
+  h1 Select the usable objects!
+  .labtester
+    #belt
+      ul.slider
+        li
+          a data-reveal-id="wcan" href="#" height="200px"
+            img src="img/wateringcan.png" alt="Reserse-handle watering can"
+        li
+          a data-reveal-id="lbulb" href="#" height="200px"
+            img src="img/lightbulb.png" alt="Light bulb"  
+        li
+          a data-reveal-id="scissors" href="#" height="200px"
+            img src="img/scissors.png" alt="Scissors" 
+        li
+          a data-reveal-id="compass" href="#"
+            img src="img/compass.png" alt="compass"
+        li
+          a data-reveal-id="eraser" href="#"
+            img src="img/eraser.png" alt="eraser"  
+        li
+          a data-reveal-id="mechclock" href="#"
+            img src="img/mechclock.png" alt="mechanical clock"
+        li
+          a data-reveal-id="paperclip" href="#"
+            img src="img/paperclip.png" alt="paperclip" 
+        li
+          a data-reveal-id="teapot" href="#"
+            img src="img/teapot.png" alt="Reserse-handle teapot"
+        li
+          a data-reveal-id="camera" href="#"
+            img src="img/camera.png" alt="camera" 
+        li
+          a data-reveal-id="postit" href="#"
+            img src="img/postit.png" alt="Post it notes"
+    
 
 
+
+
+#wcan.reveal-modal
+  h2 Reverse-handled Watering Can
+  p A popular example in the usability scene. It would be difficult to sprinkle water effectively with this watering can.
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
+
+#lbulb.reveal-modal
+  h2 Light Bulb
+  p  Joseph Swan in fact developed a bulb before Edison, but the pair later joined forces and share credit for creating the gadget we perhaps take for granted more than any other. Yes it's usable. Unless you like working in dark.
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
+
+
+#scissors.reveal-modal
+  h2 Scissors
+  p Imagine how difficult it would be too cut without scissors. The earliest known scissors appeared in Mesopotamia 3,000 to 4,000 years ago. If these aren't usable, nothing is.
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
+
+
+#compass.reveal-modal
+  h2 Compass
+  p Desperate for something more reliable, sailors in China and Europe independently discovered in the 12th century lodestone, a magnetic mineral that aligned with the North Pole. By 1190, Italian navigators were using lodestone to magnetise needles floating in bowls of water. The device set humanity on the course to chart the globe. 
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
+#eraser.reveal-modal
+  h2 Eraser
+  p Strange, perhaps, that it took 200 years after the invention of the lead pencil for somebody to dream up the eraser. Until then, draughtsman had to use bread, but the English engineer Edward Naine saw potential in natural rubber to do a better job. It did, but, like bread, was perishable. The advent of more durable vulcanised rubber in 1839 (a method pioneered by the tyre tycoon Charles Goodyear) sealed the future of the eraser. Hymen Lipman conceived the all-in-one pencil eraser in 1858.
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
+#mechclock.reveal-modal
+  h2 Mechanical Clock
+  p The most elaborate early examples date to 11th-century China, when a monk described a water-powered time keeping device. The first known public clock appeared on the Viscount of Milan's palace in 1335. The big revolution in clock design came with the introduction of the pendulum in the 17th century, allowing everyone from traders to farmers and military commanders to know precisely what the time was.
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
+#paperclip.reveal-modal
+  h2 Paperclip
+  p The simplicity of the paperclip made it an instant hit – an example of that rare marriage of aesthetics and function. Bent-wire clips cropped up in American offices as early as 1867 but it was the British-designed Gem paper clip, which was never patented, that took off and is still produced by the billion (18bn a year in the US). An 1894 advert for the clips read, " Don't mutilate your papers with pins or fasteners, but use the Gem Paper Clip.
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
+#teapot.reveal-modal
+  h2 Reverse-handled Teapot
+  p You can see this little object on the cover of Donald Norman's book The Design of Everyday Things. It would be difficult to serve tea with this.
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
+#camera.reveal-modal
+  h2 Camera
+  p The British polymath William Talbot, inventor of one of the earliest cameras (Joseph Nicéphore Niépce had produced the earliest surviving photograph on a pewter plate in 1826), was inspired by his inability to draw.
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
+#postit.reveal-modal
+  h2 Post-it Pad
+  p The scourge of office cleaners and the obsession of list freaks, Post-It notes have peeled out of the factory of US manufacturing giant, 3M, in their billions since their serendipitous invention nearly 35 years ago. It was a 3M designer called Art Fry who, frustrated by errant hymnbook page markers at choir practice, realised the need for a low-tack sticky note. He applied a weak glue to yellow paper and the Post-It, now sold in more than 100 countries and in 62 colours, was born.
+  a.close-reveal-modal ×
+  == slim(:joinus, :layout => false)
 

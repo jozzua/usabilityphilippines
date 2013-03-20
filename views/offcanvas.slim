@@ -1,0 +1,61 @@
+html#doc.js
+  head
+    meta charset="UTF-8"
+    meta content="width=device-width,initial-scale=1" name="viewport"
+    title Usability Philippines
+    script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"
+    script src="/js/scripts.js" type="text/javascript"
+    link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+    link href="/vendor/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"
+    link href="/vendor/bootstrap/css/custom.css" rel="stylesheet"
+  body#page screen_capture_injected="true"
+  .container
+    header#header
+      h1.page-title 
+        a href="http://jasonweaver.name/lab/offcanvas" Title
+    nav.off-canvas-navigation
+      ul
+        li.menu-item
+          a.menu-button href="#menu"
+        li.sidebar-item
+          a.sidebar-button href="#sidebar"
+    nav#menu role="navigation"
+      ul#nav
+        li.current
+          a href="/lab/offcanvas" One
+        li
+          a href="/lab/offcanvas/technical/" Two
+        li
+          a href="/lab/offcanvas/variations/" Three
+    section role="main"
+      h1 A Multi-Device Web Layout Pattern
+      p
+        | Inspired by the
+        a href="http://www.lukew.com/ff/entry.asp?1514"
+
+        | this Off Canvas layout demo has 3 panels that display differently depending on the viewport width. The idea here is to have the two supporting panels of navigation and sidebar content hidden just off-screen to the left and right for easy access on small/medium viewports. Off Canvas is a design pattern, not a plugin or framework.
+  
+    section#sidebar role="complementary"
+      aside
+        h1 Resources
+        ul
+          li
+            a href="http://www.lukew.com/ff/entry.asp?1514" One
+          li
+            a href="http://bradfrostweb.com/blog/web/responsive-nav-patterns/" Two
+          li
+            a href="http://mobilewebbestpractices.com/" Three
+      aside
+        h1 Live Examples
+        ul
+          li
+            a href="http://lukew.com" Sample
+          li
+            a href="http://www.kaemingk.com/en/our-showroom/christmas/" Sample
+
+    footer.site-footer role="contentinfo"
+      ul
+        li
+          | Design, code and content by
+          a href="http://jozzua.com"  Jozzua
+  

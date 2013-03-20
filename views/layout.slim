@@ -1,54 +1,17 @@
-html#doc.js
+doctype html
+html
   head
-    meta charset="UTF-8"
-    meta content="width=device-width,initial-scale=1" name="viewport"
+    meta charset="utf-8"
     title Usability Philippines
-    script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"
-    script src="/js/scripts.js" type="text/javascript"
-    link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
-    link href="/vendor/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"
-    link href="/vendor/bootstrap/css/custom.css" rel="stylesheet"
- 
-  body#page.three-column
-    .container
-      header#header
-        h1.page-title
-          a href="/"
-      nav.off-canvas-navigation
-        ul
-          li.menu-item
-            a.menu-button href="#menu"
-          li.sidebar-item
-            a.sidebar-button href="#sidebar"
-      nav#menu role="navigation"
-        ul#nav
-          li.current
-            a href="/lab/offcanvas"
-          li
-            a href="/lab/offcanvas/technical/"
-          li
-            a href="/lab/offcanvas/variations/"
-      section role="main"
-        h1 A Multi-Device Web Layout Pattern
-        p
-          | Inspired by the
+    link href="css/normalize.css" rel="stylesheet"
+    link href="css/foundation.css" rel="stylesheet"
+    script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+    script src="js/vendor/custom.modernizr.js"
+    script src="js/foundation.min.js"
+    script src="js/slider.js"
 
-      section#sidebar role="complementary"
-        aside
-          h1 Resources
-          ul
-            li
-              a href="http://www.lukew.com/ff/entry.asp?1514"
-            li
-              a href="http://bradfrostweb.com/blog/web/responsive-nav-patterns/"
-
-      footer.site-footer role="contentinfo"
-        ul
-          li
-            | Design, code and content by
-            a href="http://jasonweaver.name"
-          li
-            a href="mailto:indyplanets@gmail.com"
-          li
-            a href="#header"
-            
+    /[if lt IE 9]
+      script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"
+  body
+    == yield
+  == erb(:footer, :layout => false)
