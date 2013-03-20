@@ -1,0 +1,108 @@
+/* Custom */
+
+#masthead {
+  width: 100%;
+  text-align: center;
+  background: #f5eedb ;
+  position: relative;
+  bottom:0;
+}
+
+.focus {
+  background: url('/img/ufocus.png') no-repeat 10px 10px;
+  height: 50px;
+  line-height: 50px;
+  }
+
+.focus a {
+  position: relative;
+  left: 20px;
+
+}
+.popquiz {
+  padding: 10px;
+  background: #8FB98B;
+  transform:rotate(-30deg);
+  -ms-transform:rotate(-30deg); /* IE 9 */
+  -moz-transform:rotate(-30deg); /* Firefox */
+  -webkit-transform:rotate(-30deg); /* Safari and Chrome */
+  -o-transform:rotate(-30deg); /* Opera */
+  width: 150px;
+  top: 15px;
+  position: relative;
+  left: -28px;
+  margin-left: 20%;
+
+
+}
+
+.button.large {
+  margin: 2px;
+}
+
+.top-bar {
+  z-index:1;
+}
+
+ul.nobullet {
+  list-style-type:none;
+}
+
+.labtester {
+  background: url("../img/scientist.png") no-repeat top right;
+  height: 400px;
+}
+
+#belt {
+  height: 205px;
+  overflow:hidden;
+  background: none;
+}
+
+.slider {
+  height: 200px; /* Update to your slider height */
+  bottom: 0;
+  position:absolute;
+  overflow:hidden;
+  border-bottom: 20px solid #483a3a;
+}
+
+.slider li {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+  position: relative;
+  list-style-type:none;
+  text-align: center;
+  margin: auto;
+}
+
+.slider li img {
+  position: absolute;
+  bottom:0;
+  height: 200px;
+ 
+}
+
+.slider li img:hover {
+  //background: url("../img/uph-focus.png") no-repeat center;
+  margin-bottom: 20px;
+}
+
+
+
+@media only screen and (min-width: 320px) {
+  .button.large {
+    width: 99%%;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .button.large {
+    width: 300px;
+  }
+
+}
+
