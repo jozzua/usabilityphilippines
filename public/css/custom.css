@@ -93,13 +93,19 @@ ul.nobullet {
 
 
 @media only screen and (min-width: 320px) {
+  #masthead {
+    width: 80%
+  }
   .button.large {
-    width: 99%%;
+    width: 99%;
   }
 }
 
 
 @media only screen and (min-width: 768px) {
+  #masthead {
+    width: 90%
+  }
   .button.large {
     width: 300px;
   }
