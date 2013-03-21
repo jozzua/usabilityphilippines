@@ -101,6 +101,14 @@ ul.nobullet {
   }
 }
 
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  #masthead {
+    width: 80%
+  }
+  .button.large {
+    width: 99%;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   #masthead {

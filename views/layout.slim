@@ -14,5 +14,5 @@ html
       script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"
   body
     == yield
-  == slim(:footer, :layout => false)
+  == erb(:footer, :layout => false)
   script src="js/start.js"
