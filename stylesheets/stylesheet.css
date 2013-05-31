@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 36px;
   font-weight: 700;
+  text-align:center;
 }
 
 h2 {
@@ -295,11 +296,17 @@ Full-Width Styles
   height: 400px;
   float: right;
 
+  position: absolute;
+  top: 155px;
+  right: 10%;
+  background-color: #fff;
+  opacity:0.9;
+  filter:alpha(opacity=90);
 }
 
 .uph_focus_inner {
-  padding: 25px;
-  margin: 20px;
+  padding: 15px;
+  margin: 25px;
   width: 280px;
   text-align:center;
 }
