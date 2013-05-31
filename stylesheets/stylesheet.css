@@ -301,6 +301,7 @@ Full-Width Styles
   padding: 25px;
   margin: 20px;
   width: 280px;
+  text-align:center;
 }
 .uph_focus_inner h3{
   font-size: 21px;
