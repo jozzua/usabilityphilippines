@@ -6,6 +6,7 @@ by Jason Costello, @jsncostello
 @import url(pygment_trac.css);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
 
+
 /*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
@@ -287,7 +288,33 @@ Full-Width Styles
   font-style: italic;
 }
 
+.uph_focused {
+  background: url('../images/uphfocus.png') no-repeat ;
+  padding: 20px;
+  margin: 20px;
+  height: 400px;
+  float: right;
 
+}
+
+.uph_focus_inner {
+  padding: 25px;
+  margin: 20px;
+  width: 280px;
+}
+.uph_focus_inner h3{
+  font-size: 21px;
+}
+
+
+.uph_focus_inner h4{
+  font-size; 18px; 
+}
+
+
+.uph_focus_inner p{
+  font-size:14px;
+}
 
 #facebook_banner {
   display: block;
@@ -318,7 +345,6 @@ Full-Width Styles
 }
 
 .masthead {
-  background-color: #f2f2f2;
   padding: 10px;
 }
 
@@ -336,9 +362,10 @@ Full-Width Styles
   background: none;
 }
 
-.media {
-  padding: 10px;
-  float:left;
+.aboutuph {
+  background:#f2f2f2;
+  padding: 5px;
+
 }
 
 #downloads {
