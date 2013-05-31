@@ -446,6 +446,9 @@ Small Device Styles
   .media {
     display:none;
   }
+  .uph_focused {
+    right:0;
+  }
 
   .inner {
     min-width: 320px;
