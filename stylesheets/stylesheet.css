@@ -306,7 +306,7 @@ Full-Width Styles
 
 .uph_focus_inner {
   padding: 15px;
-  margin: 25px;
+  margin: 0 25px;
   width: 280px;
   text-align:center;
 }
