@@ -290,18 +290,15 @@ Full-Width Styles
 }
 
 .uph_focused {
-  background: url('../images/uphfocus.png') no-repeat ;
+ // background: url('../images/uphfocus.png') no-repeat ;
   padding: 20px;
   margin: 20px;
-  height: 400px;
+  height: 300px;
   float: right;
-
   position: absolute;
   top: 155px;
-  right: 10%;
+  right: 15%;
   background-color: #fff;
-  opacity:0.9;
-  filter:alpha(opacity=90);
 }
 
 .uph_focus_inner {
@@ -313,6 +310,27 @@ Full-Width Styles
 .uph_focus_inner h3{
   font-size: 21px;
 }
+.btn {
+  display: block;
+  z-index: 10;
+  padding: 10px;
+  color: #fff;
+  background: #ff2929 no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+
+}
+
+.btn a {
+  color: #fff;
+}
+
+.btn a:hover {
+  color: yellow;
+}
+
 
 
 .uph_focus_inner h4{
