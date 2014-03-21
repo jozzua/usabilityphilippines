@@ -425,7 +425,15 @@ Small Device Styles
     display:none;
   }
   .uph_focused {
-    right:0;
+    float:none;
+    position:static;
+    margin: 0 auto;
+    padding: 0;
+
+  }
+  
+  .masthead {
+    display:none;
   }
 
   .inner {
